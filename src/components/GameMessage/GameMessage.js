@@ -5,7 +5,7 @@ class GameMessage extends Component {
 
     state = {
         message: "",
-        animating: false
+        animating: false,
     }
 
     // function runs on every state change
