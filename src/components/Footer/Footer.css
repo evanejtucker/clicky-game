@@ -1,0 +1,65 @@
+
+.footer {
+    min-height: 80px;
+    width: 100%;
+    background: #66CDAA;
+    box-shadow: 0 0 5px 1px darkslategrey;
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    display: inline;
+    bottom: -5px;
+    width: 100%;
+    border-top: 5px solid rgb(83, 196, 158);
+    background: rgb(72, 165, 134);
+    line-height: 30px;
+}
+
+.bottom #title {
+    padding: 0;
+    margin-bottom: 0px;
+    float: left;
+    font-family: 'Lobster', cursive;
+    width: 25%;
+    padding-left: 10px;
+}
+
+.bottom #copywrite {
+    float: right;
+    margin-bottom: 0px;
+    margin-right: 45%;
+    width: 10%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.reactLogo {
+    height: 30px;
+    width: 30px;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+@media (min-width: 1100px) {
+
+    .footer {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .footer {
+        margin-top: 200px;
+    }
+}
+  
