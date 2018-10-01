@@ -5,6 +5,7 @@
     background: #66CDAA;
     box-shadow: 0 0 5px 1px darkslategrey;
     position: relative;
+    margin-top: 50px;
 }
 
 .bottom {
@@ -63,7 +64,8 @@
     
 }
 
-@media (min-height: 800px) {
+@media (min-height: 860px) and (min-width: 1000px) {
+    
     .footer {
         position: absolute;
         bottom: 0;
