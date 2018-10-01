@@ -7,9 +7,8 @@ try out the game here:
 
 ## Prerequesites
 
-* node
-* npm
-* bash or terminal
+* [Node](https://nodejs.org/en/)
+* [Bash](https://git-scm.com/downloads) (windows) or Terminal (mac)
 
 ## Installation
 
@@ -26,10 +25,10 @@ try out the game here:
 
 ## Built with
 
-* React
-* animate css
-* Bootstrap
-* reactstrap
+* [React](https://reactjs.org/)
+* [animate css](https://daneden.github.io/animate.css/)
+* [Bootstrap](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [reactstrap](https://reactstrap.github.io/)
 
 ## Authors
 
