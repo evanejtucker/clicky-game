@@ -11,23 +11,13 @@ class Game extends Component {
     state = {
         data,
         score: 0,
-        topScore: 0,
-        animation: "animate rollIn"
+        topScore: 0
     };
 
     // function gets called when the page loads
     componentDidMount() {
         // reorders the dataarray on state changes
         this.setState({ data: this.shuffleDeck(this.state.data) });
-    }
-
-    componentDidUpdate() {
-        console.log('updated');
-        if(this.state.animation !== "") {
-            this.setState({
-                animation: ""
-            });
-        }
     }
 
     // shuffle the imported data array in random order
@@ -66,12 +56,6 @@ class Game extends Component {
         })
     }
 
-    setAnimation = () => {
-        let animation = "animated rollIn";
-        console.log(animation);
-        return animation;
-    }
-
     // when a card is clicked, check if it has been clicked before,
     // then update that cards clicked property
     gameCardClick = id => {
@@ -99,11 +83,12 @@ class Game extends Component {
                 <Container>
                     {
                         this.state.data.map(item => (
-                            <div className={this.setAnimation()}>
+                            <div className="animated rollIn">
                                 <GameCard
                                     key={item.id}
                                     id={item.id} 
                                     image={item.image}
+                                    animate={!this.state.score && this.state.topScore}
                                     clicked={item.clicked}
                                     handleClick={this.gameCardClick}
                                 />      

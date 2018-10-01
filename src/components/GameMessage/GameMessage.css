@@ -1,5 +1,17 @@
 
-#gameMessage {
+.gameMessage {
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.black {
+    color: black;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }
