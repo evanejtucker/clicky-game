@@ -8,7 +8,7 @@ try out the game here:
 ## Prerequesites
 
 * [Node](https://nodejs.org/en/)
-* [Bash](https://git-scm.com/downloads) (windows) or Terminal (mac)
+* [git](https://git-scm.com/downloads) (windows) or Terminal (mac)
 
 ## Installation
 
