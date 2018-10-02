@@ -1,9 +1,9 @@
 .jumbo {
-    margin-top: 80px;
+    margin-top: 80px; 
 }
 
 .jumbotron {
-    background: papayawhip !important;
+    background-image: url("/assets/images/mario-background.gif");
 }
 
 .instructions {
