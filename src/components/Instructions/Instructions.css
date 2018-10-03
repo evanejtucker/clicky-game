@@ -2,9 +2,13 @@
     margin-top: 80px; 
 }
 
-/* .jumbotron {
-    background-image: url("/assets/images/mario-background.gif");
-} */
+.jumbotron {
+    box-shadow: 0 2px 5px 0 darkslategray;
+    font-family: 'Patua One', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
 
 .instructions {
     text-align: center;

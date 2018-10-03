@@ -24,6 +24,7 @@
     display: inline-block;
     width: 33%;
     padding-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .title {
@@ -32,7 +33,6 @@
 
 #score {
     font-size: 1.2em;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 

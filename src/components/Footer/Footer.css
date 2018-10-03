@@ -7,6 +7,7 @@
     position: relative;
     margin-top: 50px;
     margin: 0 auto;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .bottom {
@@ -38,17 +39,19 @@ ul#footer-list {
     color: white;
 }
 
-.reactLogo {
+#footer-list li a:hover {
+    color: black;
+}
+
+.logo {
     height: 30px;
     width: 30px;
+}
+
+#reactLogo {
     -webkit-animation:spin 10s linear infinite;
     -moz-animation:spin 10s linear infinite;
     animation:spin 10s linear infinite;
-}
-
-.githubLogo {
-    height: 30px;
-    width: 30px;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
@@ -56,7 +59,7 @@ ul#footer-list {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 
     .bottom {
         bottom: -30px;
