@@ -9,9 +9,10 @@
 }
 
 .correct {
-    color: green;
+    color: LAWNGREEN;
 }
 
 .incorrect {
-    color: red;
+    color: darkred;
+    -webkit-text-stroke: 1px black;
 }

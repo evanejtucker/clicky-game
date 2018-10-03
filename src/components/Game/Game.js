@@ -6,12 +6,14 @@ import Header from "../Header";
 import Footer from "../Footer";
 import data from "../../data";
 
+
 class Game extends Component {
 
     state = {
         data,
         score: 0,
-        topScore: 0
+        topScore: 0,
+        message: "Click as many images as you can without repeating"
     };
 
     // function gets called when the page loads
@@ -79,7 +81,7 @@ class Game extends Component {
         return (
             <div className="animated fadeIn">
                 <Header score={this.state.score} topScore = {this.state.topScore} />
-                <Instructions />
+                <Instructions message={this.state.message} />
                 <Container>
                     {
                         this.state.data.map(item => (

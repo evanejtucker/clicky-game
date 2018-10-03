@@ -5,7 +5,7 @@ import "./Instructions.css";
 const Instructions = (props) => (
     <div className="jumbo">
         <Jumbotron >
-            <h3 className="instructions">Click as many images as you can without repeating</h3>
+            <h3 className="instructions">{props.message}</h3>
         </Jumbotron>
     </div>
 );
