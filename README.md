@@ -4,6 +4,8 @@ a front end react app memory game!  Try and click all the characters without rep
 try out the game here: 
 * [Clicky Game](https://evanejtucker.github.io/clicky-game/)
 
+![Demo](./public/assets/demoGif.gif)
+
 
 ## Prerequesites
 
