@@ -4,7 +4,7 @@ import "./Instructions.css";
 
 const Instructions = (props) => (
     <div className="jumbo">
-        <Jumbotron >
+        <Jumbotron style={{'background-image': `url("/assets/images/mario-background.gif")`}} >
             <h3 className="instructions">{props.message}</h3>
         </Jumbotron>
     </div>
