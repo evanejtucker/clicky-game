@@ -32,15 +32,15 @@ ul#footer-list {
 #footer-list li {
     display: inline-block;
     width: 33%;
-    color: white;
+    color: ivory;
 }
 
 #footer-list li a {
-    color: white;
+    color: ivory;
 }
 
 #footer-list li a:hover {
-    color: black;
+    font-size: 1.2em;
 }
 
 .logo {
